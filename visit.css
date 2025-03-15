@@ -1,0 +1,245 @@
+.cf{
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: hsl(35, 87%, 94%);
+    color: #4d2400;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px; /* Pastikan padding sama */
+    height: 80px; /* Tambahkan tinggi tetap */
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #794d00;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4d2900;
+    font-weight: bold;
+    padding: 10px 15px; /* Samakan ukuran tombol */
+    font-size: 18px; /* Perbesar teks tombol */
+}
+
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #793400;
+    border-bottom: 2px solid #793d00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px; /* Pastikan ini sama */
+}
+
+
+.hero h1 {
+    font-size: 50px;
+    color: #793b00;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 16px;
+    text-align: justify;
+    max-width: 800px;
+}
+
+
+
+.hero-image img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.feature {
+    text-align: center;
+    max-width: 200px;
+}
+
+.feature img {
+    width: 50px;
+}
+
+.feature h3 {
+    color: #795f00;
+}
+
+
+li{
+    size: 150px 40px;
+}
+
+img{
+    height: 48px;
+    width: 180px;
+}
+.destinations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #fff3e0;
+}
+
+.destination {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 180px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.destination:hover {
+    transform: translateY(-5px);
+}
+
+.destination img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff9800;
+}
+.intro h1 {
+    font-size: 50px;
+    color: #793b00;
+    margin-bottom: 10px;
+    padding: 30px 10px;
+    text-align: center;
+}
+.destination h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #6d4c41;
+}
+
+.see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px; /* Sesuaikan jarak ke garis */
+    font-size: 16px;
+    font-weight: bold;
+    color: #4b2908;
+    cursor: pointer;
+}
+
+.see-more img {
+    width: 20px; /* Ukuran ikon */
+    height: auto;
+    margin-left: 8px; /* Jarak antara teks dan ikon */
+}
+
+
+.destination p {
+    font-size: 14px;
+    color: #757575;
+}
+.container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    position: relative;
+    width: 200px;
+    cursor: pointer;
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item:hover img {
+    transform: scale(1.1);
+}
+
+.item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Hide input radio */
+.hidden {
+    display: none;
+}
+
+/* Detail box styling */
+.detail-box {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Show the detail box when radio input is selected */
+input:checked + img + p + .detail-box {
+    display: block;}

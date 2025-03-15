@@ -1,0 +1,171 @@
+.cf{
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: hsl(35, 87%, 94%);
+    color: #4d2400;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px; /* Pastikan padding sama */
+    height: 80px; /* Tambahkan tinggi tetap */
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #794d00;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4d2900;
+    font-weight: bold;
+    padding: 10px 15px; /* Samakan ukuran tombol */
+    font-size: 18px; /* Perbesar teks tombol */
+}
+
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #793400;
+    border-bottom: 2px solid #793d00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px; /* Pastikan ini sama */
+}
+
+
+.hero h1 {
+    font-size: 50px;
+    color: #793b00;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 16px;
+    text-align: justify;
+    max-width: 800px;
+}
+
+p{
+    max-width: 800px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.feature {
+    text-align: center;
+    max-width: 200px;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.feature h3 {
+    color: #795f00;
+}
+
+
+li{
+    size: 150px 40px;
+}
+
+img{
+    height: 48px;
+    width: 180px;
+}
+
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.intro h1 {
+    font-size: 50px;
+    color: #793b00;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #793b00;
+    text-align: justify;
+}
+.hero-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.intro {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.intro h1 {
+    font-size: 50px;
+    color: #793b00;
+    margin-bottom: 5px;
+}
+
+.intro p {
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #793b00;
+    text-align: justify;
+}
+
+.ha{
+    font-size: 25px;
+    color: #793b00;
+    text-align: center;
+}
+
+

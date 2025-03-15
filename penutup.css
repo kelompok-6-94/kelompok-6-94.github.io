@@ -1,0 +1,168 @@
+.cf{
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: hsl(35, 87%, 94%);
+    color: #4d2400;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px; /* Pastikan padding sama */
+    height: 80px; /* Tambahkan tinggi tetap */
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #794d00;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4d2900;
+    font-weight: bold;
+    padding: 10px 15px; /* Samakan ukuran tombol */
+    font-size: 18px; /* Perbesar teks tombol */
+}
+
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #793400;
+    border-bottom: 2px solid #793d00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+li{
+    size: 150px 40px;
+}
+
+img{
+    height: 48px;
+    width: 180px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 19.5px;
+}
+
+/* Style untuk details */
+details {
+    background: #f9e5c0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Style untuk tombol summary */
+summary {
+    padding: 8px 12px;
+    background: #794d00;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    list-style: none;
+    text-align: center;
+}
+
+summary:hover {
+    background: #4d2400;
+}
+
+/* Style isi dari details */
+details p, details ul {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #4d2900;
+    text-align: left;
+}
+
+/* Style untuk link */
+details a {
+    color: #794d00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+details a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.ty img {
+    width: 300px; /* Ubah sesuai keinginan */
+    height: auto; /* Biarkan proporsional */
+    display: block;
+    margin: 20px auto; /* Pusatkan gambar */
+}
+
+
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.intro h1 {
+    font-size: 100px;
+    color: #4b2908;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.intro p {
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #793b00;
+    text-align: justify;
+}
